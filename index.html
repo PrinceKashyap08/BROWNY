@@ -1,12 +1,19 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="Responsive.css">
     <title>Browny.com</title>
 </head>
+
 <body>
     <!-- ---------------- header-section ---------------- -->
     <header class="header">
@@ -18,10 +25,10 @@
                 <li><a href="#">Education</a></li>
                 <li><a href="#">Skills</a></li>
                 <li><a href="#">Experience</a></li>
-                <li><a href="#">Profile</a></li>
-                <li><a href="#">Portfolio</a></li>
-                <li><a href="#">Clients</a></li>
-                <li><a href="#">Contact</a></li>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#client">Clients</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -46,8 +53,15 @@
             </div>
             <div class="about-container wrapper">
                 <div class="about-right">
-                    <h3>I am a Professional UI/UX Designer and Web developer. Consectetur an adipisi elita, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis nostrud.</h3>
-                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspi unde omnis iste natus error sit voluptatem accusantium doloremque lauda ntium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam vo luptatem quia voluptas sit aspernatur aut odit aut fugit,</p>
+                    <h3>I am a Professional UI/UX Designer and Web developer. Consectetur an adipisi elita, sed do
+                        eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam quis
+                        nostrud.</h3>
+                    <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
+                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
+                        mollit anim id est laborum. Sed ut perspi unde omnis iste natus error sit voluptatem accusantium
+                        doloremque lauda ntium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi
+                        architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam vo luptatem quia voluptas sit
+                        aspernatur aut odit aut fugit,</p>
                     <div class="about-info">
                         <div class="about-content">
                             <h3>Phone</h3>
@@ -80,6 +94,164 @@
             </div>
         </section>
         <!-- ---------------- /about-section ---------------- -->
+
+        <!-- ---------------- profiles-section ---------------- -->
+        <section class="profile" id="profile">
+            <div class="title">
+                <h2>Profiles</h2>
+            </div>
+            <div class="profile-container wrapper">
+                <div class="profile-box">
+                    <i class="fa  fa-pied-piper-pp"></i>
+                    <p>Themeforest</p>
+                </div>
+                <div class="profile-box">
+                    <i class="fa fa-dribbble"></i>
+                    <p>Dribble</p>
+                </div>
+                <div class="profile-box">
+                    <i class="fa fa-behance"></i>
+                    <p>Behance</p>
+                </div>
+                <div class="profile-box">
+                    <i class="fa fa-github"></i>
+                    <p class="b-left">Github</p>
+                </div>
+                <div class="profile-box">
+                    <i class="fa fa-flickr"></i>
+                    <p class="para">FlickR</p>
+                </div>
+                <div class="profile-box">
+                    <i class="fa fa-codepen"></i>
+                    <p class="para">SmungMung</p>
+                </div>
+                <div class="profile-box">
+                    <i class="fa fa-first-order"></i>
+                    <p class="para">SquareSpace</p>
+                </div>
+                <div class="profile-box">
+                    <i class="fa fa-bitbucket"></i>
+                    <p class="para b-left">BitBucket</p>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------- /profiles-section ---------------- -->
+
+        <!-- ---------------- portfolio-section ---------------- -->
+        <section class="portfolio" id="portfolio">
+            <div class="title">
+                <h2>PORTFOLIO</h2>
+            </div>
+            <div class="portfolio-container wrapper">
+                <div class="portfolio-box50">
+                    <div class="portfolio-img">
+                        <img src="/image/p1.jpg" alt="bedroom-image">
+                    </div>
+                    <div class="portfolio-img">
+                        <img src="/image/p2.jpg" alt="bedroom-image">
+                    </div>
+                </div>
+                <div class="portfolio-box100">
+                    <div class="portfolio-img">
+                        <img src="/image/p3.jpg" alt="bedroom-image">
+                    </div>
+                </div>
+                <div class="portfolio-box50">
+                    <div class="portfolio-img">
+                        <img src="/image/p4.jpg" alt="bedroom-image">
+                    </div>
+                    <div class="portfolio-img">
+                        <img src="/image/p5.jpg" alt="bedroom-image">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------- /portfolio-section ---------------- -->
+
+        <!-- ---------------- client-section ---------------- -->
+        <section class="client" id="client">
+            <div class="title">
+                <h2>CLients</h2>
+            </div>
+            <div class="owl-carousel owl-theme wrapper">
+                <div class="client-box">
+                    <div class="client-img1"></div>
+                </div>
+                <div class="client-box">
+                    <div class="client-img2"></div>
+                </div>
+                <div class="client-box">
+                    <div class="client-img3"></div>
+                </div>
+                <div class="client-box">
+                    <div class="client-img4"></div>
+                </div>
+                <div class="client-box">
+                    <div class="client-img5"></div>
+                </div>
+                <div class="client-box">
+                    <div class="client-img6"></div>
+                </div>
+                <div class="client-box">
+                    <div class="client-img7"></div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------- /client-section ---------------- -->
+
+        <!-- ---------------- contact-section ---------------- -->
+        <section class="contact" id="contact">
+            <div class="title">
+                <h2>Contact me</h2>
+            </div>
+            <div class="contact-container wrapper">
+                <div class="contact-left">
+                    <form>
+                        <div class="input-box50">
+                            <input type="text" placeholder="Name*">
+                            <input type="email" placeholder="Email*">
+                        </div>
+                        <div class="input-box100">
+                            <input type="text" placeholder="Subject">
+                        </div>
+                        <div class="input-box100">
+                            <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                        </div>
+                        <button class="c-btn" type="button">Submit</button>
+                    </form>
+                </div>
+                <div class="contact-right">
+                    <div class="contact-head">
+                        <h3>Browny Star</h3>
+                        <p>UI/UX Designer</p>
+                    </div>
+                    <div class="contact-info">
+                        <div class="contact-box">
+                            <h3>Phone</h3>
+                            <p>123-456-7890</p>
+                        </div>
+                        <div class="contact-box">
+                            <h3>Email</h3>
+                            <p>name@domain.com</p>
+                        </div>
+                        <div class="contact-box">
+                            <h3>Website</h3>
+                            <p>www.domain.com</p>
+                        </div>
+                    </div>
+                    <div class="contact-icons">
+                        <ul>
+                            <li><i class="fa fa-facebook"></i></li>
+                            <li><i class="fa fa-whatsapp"></i></li>
+                            <li><i class="fa fa-twitter"></i></li>
+                            <li><i class="fa fa-linkedin"></i></li>
+                            <li><i class="fa fa-instagram"></i></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- ---------------- /contact-section ---------------- -->
     </main>
     <!-- ---------------- /main-section ---------------- -->
 
@@ -91,7 +263,10 @@
     </footer>
     <!-- ---------------- /Footer-section ---------------- -->
 
-    <script src="https://kit.fontawesome.com/edcd5c8c16.js" ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="https://kit.fontawesome.com/edcd5c8c16.js"></script>
     <script src="main.js"></script>
 </body>
+
 </html>

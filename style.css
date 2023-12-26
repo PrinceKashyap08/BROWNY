@@ -56,7 +56,7 @@ li{
     left: 0;
     width: 100%;
     height: 80px;
-    z-index: 10000;
+    z-index: 10000000;
     background: #ffffff;
     box-shadow: 0px 9px 26px -3px rgba(0,0,0,0.1);
 }
@@ -81,6 +81,7 @@ li{
     text-transform: uppercase;
     transition: all 0.3s ease;
 }
+.nav-menu a:active,
 .nav-menu a:hover{
     color: var(--pink);
 }
@@ -156,8 +157,10 @@ li{
     border-bottom: 1px solid #e5ebf2;
 }
 .title h2{
-    font-size: 2rem;
+    font-size: 2.2rem;
+    font-weight: 600;
     color: var(--heading);
+    text-transform: uppercase;
 }
 .about-container{
     padding-top: 100px;
@@ -229,6 +232,229 @@ li{
 }
 /* ------------------ /about-style ------------------- */
 
+/* ------------------ profile-style ------------------- */
+.profile-container{
+    padding: 100px 30px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    text-align: center;
+}
+.profile-box{
+    border-right: 1px solid #999fb3;
+}
+.profile-box i{
+    font-size: 2rem;
+    padding-top: 30px;
+}
+.profile-box p{
+    padding: 0;
+    padding: 10px 20px;
+    padding-bottom: 30px;
+}
+.para{
+    border-bottom: none;
+}
+.profile-box .b-left{
+    border-right:transparent;
+}
+/* ------------------ /profile-style ------------------- */
+
+/* ------------------ portfolio-style ------------------- */
+.portfolio{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.portfolio-container{
+    padding: 100px 30px;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 30px;
+}
+.portfolio-box50{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.portfolio-img{
+    height: 100%;
+}
+/* ------------------ /portfolio-style ------------------- */
+
+/* ------------------ client-style ------------------- */
+.client{
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+.owl-carousel{
+    padding: 100px 30px;
+    text-align: center;
+}
+.client-box{
+    width: 100%;
+    height: 50px;
+    padding: 0 10px;
+}
+.client-img1{
+    background: url(/image/c1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
+.client-img2{
+    background: url(/image/c2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.client-img3{
+    background: url(/image/c3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.client-img4{
+    background: url(/image/c4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.client-img5{
+    background: url(/image/c5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.client-img6{
+    background: url(/image/c6.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+.client-img7{
+    background: url(/image/c7.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+}
+/* ------------------ /client-style ------------------- */
+
+/* ------------------ contact-style ------------------- */
+.contact{
+    background: #f9fbfd;
+}
+.contact-container{
+    padding: 100px 30px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-gap: 50px;
+}
+.contact-left form{
+    position: relative;
+}
+.input-box50{
+    display: flex;
+    gap: 10px;
+    padding-bottom: 10px;
+}
+.input-box50 input{
+    width: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #636a82;
+}
+.input-box100 input{
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    border: none;
+    margin-bottom: 10px;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #636a82;
+}
+.input-box100 textarea{
+    width: 100% !important;
+    height: 100%;
+    padding: 15px;
+    border: none;
+    outline: none;
+    margin-bottom: 15px;
+    resize: none;
+    border: 1px solid #fff;
+    background: #fff;
+    color: #636a82;
+}
+.c-btn{
+    width: 100%;
+    padding: 15px;
+    font-size: 1.4rem;
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    background: #b636ff;
+    border: 1px solid #b636ff;
+    cursor: pointer;
+    box-shadow: 0 5px 20px rgba(0,0,0,.2);
+    transition: 0.3s ease;
+}
+.c-btn:hover{
+    background: #a132e2;
+    opacity: 1;
+}
+.contact-right{
+    position: relative;
+    padding-left: 50px;
+}
+.contact-head{
+    padding-bottom: 50px;
+}
+.contact-head h3{
+    font-size: 2rem;
+    font-weight: 500;
+    color: var(--heading);
+}
+.contact-head p{
+    font-size: 1.6rem;
+    font-weight: 400;
+    padding: 0;
+    border: none;
+}
+.contact-box{
+    padding-bottom: 25px;
+}
+.contact-box h3{
+    font-size: 1.6rem;
+    font-weight: 500;
+}
+.contact-box p{
+    font-size: 1.5rem;
+    padding: 0;
+    padding-top: 10px;
+    border: none;
+}
+.contact-icons ul{
+    display: flex;
+    gap: 20px;
+    padding-top: 30px;
+}
+.contact-icons i{
+    font-size: 1.4rem;
+}
+/* ------------------ /contact-style ------------------- */
+
 /* ------------------ Footer-style ------------------- */
 .footer{
     position: relative;
@@ -236,7 +462,7 @@ li{
     background: #ffffff;
 }
 .footer-container{
-    padding: 20px 30px;
+    padding: 30px 30px;
     display: flex;
     justify-content: center;
     align-items: center;
