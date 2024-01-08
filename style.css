@@ -42,6 +42,9 @@ li{
     --Grey-bg:#e6ecf3;
     --light-black:#1f2c6c;
 }
+::selection{
+    background-color: rgba(178, 193, 206,0.3);
+}
 .wrapper{
     max-width: 1200px;
     margin: auto;
@@ -732,5 +735,6 @@ li{
     font-weight: 400;
     border: none;
     padding: 0;
+    text-align: center;
 }
 /* ------------------ /Footer-style ------------------- */
