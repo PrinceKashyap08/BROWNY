@@ -84,8 +84,8 @@ li{
     text-transform: uppercase;
     transition: all 0.3s ease;
 }
-.nav-menu a:active,
-.nav-menu a:hover{
+.nav-menu a:hover,
+.nav-menu a:active{
     color: var(--pink);
 }
 .hamburger{

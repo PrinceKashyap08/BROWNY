@@ -196,6 +196,43 @@
     .profile-box p{
         font-size: 1.4rem;
     }
+    .experience-line::before{
+        display: none;
+    }
+    .last-line::before{
+        display: none;
+    }
+    .experience-line i{
+        display: none;
+    }
+    .experience-container{
+        padding: 50px 20px;
+    }
+    .experience-box{
+        flex-direction: column;
+        justify-self: left;
+    }
+    .experience-info{
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: start;
+        gap: 5px;
+    }
+    .experience-content{
+        padding-top: 5px;
+        gap: 10px;
+        width: 100%;
+    }
+    .experience-content p{
+        max-width: 100%;
+    }
+    .experience-info h3 {
+        font-size: 1.5rem;
+    }
+    .experience-content h3 {
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -280,4 +317,14 @@
     .profile-box p{
         font-size: 1.2rem;
     }
+    .experience-container{
+        padding: 50px 10px;
+    }
+    .experience-content p{
+        font-size: 1.2rem;
+    }
+    .experience-content h3 {
+        font-size: 1.2rem;
+    }
+
 }
