@@ -22,6 +22,7 @@
         padding: 30px;
         flex-direction: column;
         background-color: #fff;
+        box-shadow: -4px 12px 23px -23px rgba(0,0,0,0.1);
     }
 
     .nav-menu.active {
@@ -69,6 +70,10 @@
         grid-template-columns: repeat(1,1fr);
         grid-gap: 50px;
         padding: 100px 30px;
+    }
+    .profile-container{
+        padding: 100px 30px;
+        grid-template-columns: repeat(2,1fr);
     }
 }
 
@@ -184,6 +189,13 @@
     .skill-info span{
         font-size: 1.4rem;
     }
+    .profile-container{
+        padding: 50px 20px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .profile-box p{
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -257,5 +269,15 @@
     }
     .skill-info span{
         font-size: 1.3rem;
+    }
+    .profile-container{
+        padding: 50px 10px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .profile-box i{
+        font-size: 1.6rem;
+    }
+    .profile-box p{
+        font-size: 1.2rem;
     }
 }
