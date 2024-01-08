@@ -1,0 +1,128 @@
+@media screen and (max-width: 992px) {
+    .about-container {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 50px;
+    }
+
+    .about-left {
+        position: relative;
+        justify-self: center;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .nav-menu {
+        position: fixed;
+        top: 80px;
+        left: -100%;
+        width: 100%;
+        padding: 30px;
+        flex-direction: column;
+        background-color: #fff;
+    }
+
+    .nav-menu.active {
+        left: 0;
+    }
+
+    .hamburger.active .line:nth-child(1) {
+        transform: translateY(10px) rotate(45deg);
+    }
+
+    .hamburger.active .line:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .hamburger.active .line:nth-child(2) {
+        background-color: transparent;
+    }
+
+    .hamburger {
+        display: block;
+    }
+}
+
+@media screen and (max-width:568px) {
+    .navbar {
+        padding: 0 20px;
+    }
+
+    .nav-menu {
+        padding: 20px 20px;
+    }
+
+    .hero-container h1 {
+        font-size: 4rem;
+    }
+
+    .hero-container p {
+        font-size: 1.6rem;
+    }
+
+    .hero-container .h-btn {
+        font-size: 1.4rem;
+    }
+
+    .title h2 {
+        font-size: 2rem;
+    }
+
+    .about-container {
+        padding: 0 20px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .about-right h3 {
+        font-size: 1.6rem;
+    }
+
+    .about-right p {
+        font-size: 1.4rem;
+        line-height: 1.6;
+    }
+
+    .about-content h3 {
+        font-size: 1.4rem;
+    }
+
+}
+
+@media screen and (max-width: 400px) {
+    .navbar {
+        padding: 0 10px;
+    }
+    .nav-menu {
+        padding: 20px 10px;
+    }
+    .nav-menu a {
+        font-size: 1.2rem;
+    }
+
+    .hero-container h1 {
+        font-size: 3.5rem;
+    }
+
+    .hero-container p {
+        font-size: 1.4rem;
+    }
+
+    .hero-container .h-btn {
+        font-size: 1.2rem;
+    }
+    .title h2 {
+        font-size: 1.6rem;
+    }
+    .about-container {
+        padding: 0 10px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+    .about-info{
+        grid-template-columns: repeat(1,1fr);
+    }
+
+}

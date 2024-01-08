@@ -85,6 +85,18 @@ li{
 .nav-menu a:hover{
     color: var(--pink);
 }
+.hamburger{
+    cursor: pointer;
+    border: 1px solid #d92cf9;
+    padding: 2px;
+    display: none;
+}
+.hamburger .line{
+    width: 30px;
+    height: 3px;
+    margin: 6px;
+    background: #d92cf9;
+}
 /* ------------------ /header-style ------------------- */
 
 /* ------------------ hero-style ------------------- */
