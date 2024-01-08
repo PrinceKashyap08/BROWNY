@@ -43,6 +43,18 @@
     .hamburger {
         display: block;
     }
+    .edu-container {
+        display: flex;
+        flex-direction: column;
+        padding: 100px 30px;
+    }
+    .edu-line::after{
+        width: 80%;
+    }
+    .portfolio-container{
+        padding: 100px 30px;
+        grid-template-columns: repeat(1,1fr);
+    }
     .contact-container{
         padding: 100px 30px;
         grid-template-columns: repeat(1,1fr);
@@ -94,12 +106,24 @@
         font-size: 1.4rem;
         line-height: 1.6;
     }
-
     .about-content h3 {
         font-size: 1.4rem;
     }
-    .contact-container{
+    .edu-container {
+        display: flex;
+        flex-direction: column;
+        padding: 50px 20px;
+    }
+    .portfolio-container{
         padding: 100px 20px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .owl-carousel{
+        padding: 100px 20px;
+        text-align: center;
+    }
+    .contact-container{
+        padding: 50px 20px;
         grid-template-columns: repeat(1,1fr);
     }
     .input-box50{
@@ -123,6 +147,24 @@
         padding: 0;
         padding-top: 10px;
         border: none;
+    }
+    .edu-info h3{
+        padding-top: 20px;
+        font-size: 1.5rem;
+        font-weight: 500;
+        padding-bottom: 5px;
+    }
+    .edu-info h4{
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+    .edu-info p{
+        padding: 0;
+        border: none;
+        font-size: 1.2rem;
+        font-weight: 400;
+        padding-top: 10px;
+        max-width: 90%;
     }
 }
 
@@ -151,13 +193,27 @@
     .title h2 {
         font-size: 1.6rem;
     }
+    .about-right h3 {
+        font-size: 1.5rem;
+    }
     .about-container {
         padding: 0 10px;
         padding-top: 50px;
         padding-bottom: 100px;
     }
+    .portfolio-container{
+        padding: 50px 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
     .about-info{
         grid-template-columns: repeat(1,1fr);
+    }
+    .edu-container {
+        padding: 50px 10px;
+    }
+    .owl-carousel{
+        padding: 100px 20px;
+        text-align: center;
     }
     .contact-container{
         padding: 100px 10px;
