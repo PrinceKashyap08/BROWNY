@@ -64,6 +64,12 @@
         position: relative;
         padding-left: 0px;
     }
+    .skill-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 50px;
+        padding: 100px 30px;
+    }
 }
 
 @media screen and (max-width:568px) {
@@ -166,6 +172,18 @@
         padding-top: 10px;
         max-width: 90%;
     }
+    .skill-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 50px;
+        padding: 50px 20px;
+    }
+    .skill-info h3{
+        font-size: 1.4rem;
+    }
+    .skill-info span{
+        font-size: 1.4rem;
+    }
 }
 
 @media screen and (max-width: 400px) {
@@ -227,5 +245,17 @@
     }
     .contact-head p{
         font-size: 1.2rem;
+    }
+    .skill-container{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 50px;
+        padding: 50px 10px;
+    }
+    .skill-info h3{
+        font-size: 1.3rem;
+    }
+    .skill-info span{
+        font-size: 1.3rem;
     }
 }
